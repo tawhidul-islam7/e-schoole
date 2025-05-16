@@ -1,43 +1,128 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .box {
-        width: 100%;
-   
-        background-color: #86baee;
+      header {
+        padding: 10px 0;
     }
+    .logo{
+        width: 180px;
+    }
+    .menu ul li a {
+        padding: 0 10px 5px !important;
+        
+    }
+    .s_btn {
+        margin-left: 0px;
+    }
+     /* banner start  */
+    .banner{
+        padding-bottom: 60px;
+    }
+    .b_text{
+        text-align: center;
+    }
+    .h1{
+        margin: 10px 0 20px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .p2 {
+        margin: 0 ;
+        line-height: 30px;
+       
+    }
+    .b_img{
+        margin: 0 0 30px;
+    }
+    
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .box {
-        background-color: #1681ec;
+    header {
+        padding:  10px 0;
+    }
+    .logo{
+        width: 190px;
+    }
+    .menu ul li a {
+        padding: 0 10px 5px !important;
+        
+    }
+    .s_btn {
+        margin-left: 0px;
+    }
+    /* banner start  */
+    .banner{
+        padding-bottom: 60px;
+    }
+    .b_text{
+        text-align: center;
+    }
+    .h1{
+        margin: 10px 90px 20px ;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .p2 {
+        margin: 0 50px;
+        line-height: 30px;
+       
+    }
+    .b_img{
+        margin: 0 30px 30px;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .box {
-        background-color: rgb(211, 196, 227);
+    /* header start  */
+    header {
+        padding: 0 10px;
     }
+    .menu ul li a {
+        padding: 0 10px 5px !important;
+        
+    }
+    .s_btn {
+        margin-left: 0px;
+    }
+    /* banner start  */
+    .b_text{
+        text-align: center;
+    }
+    .h1{
+        margin: 10px 130px 20px ;
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .p2 {
+        margin: 0 90px;
+       
+    }
+    .b_img{
+        margin: 0 30px 30px;
+    }
+   
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .box {
-        background-color: #63f7d2;
-    }
+   .h1 {
+    margin: 10px 40px 20px 0;
+   }
 }
 
 /* Extra Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    .box {
-        background-color: #28a745;
+    .h1 {
+    margin: 10px 25px 20px 0;
     }
 }
 
 /* Extra extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
-    .box {
-        background-color: #e928d6;
+    /* banner start  */
+    .h1{
+    margin: 10px 100px 20px 0;
     }
 }
