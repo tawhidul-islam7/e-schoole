@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* common css start */
-:root{
+:root {
     --black: #000000;
     --orange: #FD511A;
     --green: #21B573;
+    --bgg:    #F0FFF0;
     --pop: "Poppins", sans-serif;
     --rob: "Roboto", sans-serif;
 
 }
 body{
     font-family: var(--pop) ;
-    font-size:16px; ;
+    font-size: 16px; 
     font-weight: 400;
     color: var(--black);
 
@@ -20,7 +21,8 @@ body{
 /* common css end */  
 /* header start  */
 header{
-    background-color:#F0FFF0 ;
+    padding: 15px 0;
+    background-color: var(--bgg);
 }
 .cnav{
 
@@ -47,13 +49,11 @@ header{
    background-color: var(--green);  
    border-radius: 33px;
    font-family: var(--rob);
-   color: #F0FFF0;
-   
-
-
+   color: #ffffff;
    
 }
 .s_btn{
+    margin-left: 10px;
     padding: 12px 28px;
 
 }
@@ -68,3 +68,36 @@ header{
 }
 
 /* header end */
+/* banner start  */
+.banner{
+    background-color: var(--bgg);
+    padding-bottom: 65px;
+    
+}
+.b_text{}
+.p1{
+    color: var(--orange);
+}
+.h1{
+    margin: 10px 100px 20px 0;
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--black);
+    line-height: 70px;
+}
+.h1 span {
+    color: var(--green);
+}  
+.p2{
+    line-height: 36px ;
+}
+.b_link{
+    margin-top: 15px;
+    padding: 12px 30px ;
+} 
+.b_img{}
+.b_img img{
+   
+}
+
+/* banner end */
